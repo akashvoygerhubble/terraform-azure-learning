@@ -1,0 +1,21 @@
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# State files - contain sensitive data
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Plan files
+*.tfplan
+
+# Mac files
+.DS_Store
+
+# Crash logs
+crash.log

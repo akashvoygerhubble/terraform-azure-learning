@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and fill your real values
+# NEVER commit terraform.tfvars to GitHub
+
+subscription_id      = "your-subscription-id-here"
+client_id            = "your-client-id-here"
+client_secret        = "your-client-secret-here"
+tenant_id            = "your-tenant-id-here"
+resource_group_name  = "myrgakash"
+location             = "UK South"
+storage_account_name = "your-storage-account-name"
+container_name       = "your-container-name"
